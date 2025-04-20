@@ -1,0 +1,9 @@
+﻿  ConsoleApplication2.cpp
+c:\users\пользователь\documents\visual studio 2015\projects\consoleapplication2\consoleapplication2\consoleapplication2.cpp(59): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "temp"
+c:\users\пользователь\documents\visual studio 2015\projects\consoleapplication2\consoleapplication2\consoleapplication2.cpp(59): error C2065: adress: необъявленный идентификатор
+c:\users\пользователь\documents\visual studio 2015\projects\consoleapplication2\consoleapplication2\consoleapplication2.cpp(61): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "std::string" (или приемлемое преобразование отсутствует)
+  c:\users\пользователь\documents\visual studio 2015\projects\consoleapplication2\consoleapplication2\consoleapplication2.cpp(83): note: может быть "address &address::operator =(address &&) noexcept(<expr>)"
+  c:\users\пользователь\documents\visual studio 2015\projects\consoleapplication2\consoleapplication2\consoleapplication2.cpp(83): note: или       "address &address::operator =(const address &)"
+  c:\users\пользователь\documents\visual studio 2015\projects\consoleapplication2\consoleapplication2\consoleapplication2.cpp(61): note: при попытке сопоставить список аргументов "(address, std::string)"
+c:\users\пользователь\documents\visual studio 2015\projects\consoleapplication2\consoleapplication2\consoleapplication2.cpp(104): error C2664: "std::string *address::get_town(address *,int)": невозможно преобразовать аргумент 1 из "std::string *" в "address *"
+  c:\users\пользователь\documents\visual studio 2015\projects\consoleapplication2\consoleapplication2\consoleapplication2.cpp(104): note: Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
