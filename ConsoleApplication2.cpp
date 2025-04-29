@@ -66,7 +66,7 @@ void del(Address* addr, int N)
 void sort(Address* address, int N)
 {
 	for (int i = 0; i < N; i++)
-		for (int j = i; j < N - 1; j++)
+		for (int j = 0; j < N - 1; j++)
 		{
 			if (address[j].get_town() > address[j + 1].get_town())
 			{
@@ -83,7 +83,7 @@ void out_adr(Address* address, int N)
 	if (adr1.is_open())
 	{
 		adr1 << N << std::endl;
-		for (int i = 0; i <= N; i++)
+		for (int i = 0; i < N; i++)
 		{
 			adr1 << address[i].get_output_address() << std::endl;
 
